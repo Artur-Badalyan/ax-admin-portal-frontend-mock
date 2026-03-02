@@ -1,0 +1,315 @@
+{
+  "common": {
+    "no": "No",
+    "yes": "Yes",
+    "none": "None",
+    "create": "Create",
+    "delete": "Delete",
+    "edit": "Edit",
+    "upload": "Upload",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "accept": "Accept",
+    "reject": "Reject",
+    "decline": "Decline",
+    "duplicate": "Duplicate",
+    "unChecked": "Unchecked",
+    "loading": "Loading...",
+    "search": "Search...",
+    "successFullyCreated": "Created successfully",
+    "nothingHereYet": "Nothing here yet",
+    "createYourFirstItem": "Create your first item to get started."
+  },
+  "brand": {
+    "title": "Admin portal"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "requests": "Requests",
+    "members": "Members",
+    "billing": "Billing",
+    "organization": "Organization",
+    "menu": {
+      "profile": "Profile"
+    },
+    "language": {
+      "en": "EN",
+      "de": "DE"
+    }
+  },
+  "table": {
+    "filters": "Filters",
+    "search": "Search...",
+    "selected": "selected",
+    "noResult": "No results found",
+    "rowsPerPage": "Rows per page",
+    "previous": "Previous",
+    "next": "Next",
+    "previousPageOfTotalPages": "{{startItem}} - {{endItem}} of {{totalCount}}",
+    "actions": {
+      "delete": "Delete",
+      "edit": "Edit",
+      "download": "Download",
+      "open": "Open",
+      "clone": "Clone",
+      "create": "Create",
+      "upload": "Upload",
+      "view": "View",
+      "check": "Check",
+      "print": "Print",
+      "compare": "Compare",
+      "convert": "Convert",
+      "accept": "Accept ({{acceptCount}})",
+      "reject": "Reject ({{rejectCount}})"
+    }
+  },
+  "auth": {
+    "title": "console.auxalia",
+    "description": "For Signing in to your account use your credentials or SSO with Microsoft.",
+    "forgotPassword": "Forgot your password?",
+    "signOut": "Sign Out",
+    "form": {
+      "email": "E-Mail Address",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "••••••••",
+      "logIn": "Log In",
+      "signingIn": "Signing in...",
+      "youDoNotHaveAnAccountYet": "You do not have an account yet?",
+      "registerNow": "Register now",
+      "createOrganizationModalTitle": "Create your organization",
+      "createOrganizationModalDescription": "To complete your sign-in, please create your organization.",
+      "createOrganization": "Create Organization",
+      "organizationNamePlaceholder": "Organization Name",
+      "organizationNameIsRequired": "Organization name is required",
+      "organizationNameMinLength": "Organization name must be at least 3 characters",
+      "noAuthorizationCode": "No authorization code received from Microsoft",
+      "failedToSignIn": "Failed to sign in with Microsoft. Please try again.",
+      "noAccessPleaseTryAgain": "No access token received from Microsoft. Please try again.",
+      "signInWithMicrosoft": "Sign in with Microsoft",
+      "signInWithAutodesk": "Sign in with Autodesk"
+    },
+    "invitation": {
+      "title": "You've been invited to join {{organizationName}} on console.auxalia",
+      "description": "To accept the invitation, please sign in to your account or create a new one.",
+      "accepted": "You have accepted the invitation to join {{organizationName}}. You can now access the organization's resources.",
+      "declined": "You have declined the invitation to join {{organizationName}}. You will not have access to the organization's resources.",
+      "chooseYourOrg": "Choose your organization",
+      "chooseYourOrgDesc": "You are a member of multiple organizations. Please select the one you want to access.",
+      "noPendingInvitations": "No pending invitations",
+      "createNewOrganization": "You can create a new organization to get started.",
+      "createOrganization": "Create Organization",
+      "invitedBy": "Invited by",
+      "unknown": "Unknown",
+      "invitedDate": "Invited date",
+      "invitedEmail": "Invited email",
+      "organizationName": "Organization",
+      "status": "Status",
+      "expires": "Expires",
+      "provideNameToCreateOrg": "Provide a name to create your organization.",
+      "organizationNamePlaceholder": "My Organization",
+      "organizationNameRequired": "Organization name is required",
+      "orgNameIsRequired": "Organization name is required",
+      "missingIdentifier": "Missing identifier for invitation",
+      "organizationCreated": "Organization created successfully",
+      "failedToCreateOrganization": "Failed to create organization. Please try again.",
+      "failedToAcceptInvitation": "Failed to accept invitation. Please try again.",
+      "failedToDeclineInvitation": "Failed to decline invitation. Please try again.",
+      "acceptedInvitation": "Invitation accepted.",
+      "declinedInvitation": "Invitation declined."
+    }
+  },
+  "dashboard": {
+    "licenseManagement": "Auxalia Licence Management",
+    "used": "Used",
+    "management": {
+      "firstElement": {
+        "title": "Everything as expected",
+        "description": "Nothing to do for you"
+      },
+      "secondElement": {
+        "title": "Pending request",
+        "description": "{{count}} People are waiting for you"
+      },
+      "thirdElement": {
+        "title": "Credit card expires soon",
+        "description": "Update payment details"
+      }
+    }
+  },
+  "requestsPage": {
+    "title": "Assignment Requests",
+    "description": "1x existing Revit ProjectBox Business seat will be assigned, 1x PlantTools Starter seat will be purchased",
+    "descriptionModal": "1x existing PlantTools Business seat will be assigned",
+    "details": {
+      "title": "Request from {{requester}}",
+      "notFound": "Request not found",
+      "notFoundDescription": "The requested assignment request could not be found.",
+      "requestInformation": "Request Information",
+      "requester": "Requester",
+      "email": "Email",
+      "requestDate": "Request Date",
+      "assignment": "Assignment",
+      "notes": "Notes",
+      "acceptModalTitle": "Accept Request",
+      "acceptModalDescription": "Are you sure you want to accept the request from {{requester}}?",
+      "rejectModalTitle": "Reject Request",
+      "rejectModalDescription": "Are you sure you want to reject the request from {{requester}}?"
+    }
+  },
+  "membersPage": {
+    "title": "Members",
+    "inviteButton": "Invite Member",
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "status": "Status",
+      "role": "Role",
+      "invitationSent": "Invitation sent {{date}}"
+    },
+    "roles": {
+      "MANAGER": "Manager",
+      "ADMIN": "Admin",
+      "USER": "User"
+    },
+    "actions": {
+      "manageLicenses": "Manage Licenses",
+      "removeFromOrg": "Remove from Organization",
+      "resendInvitation": "Resend invitation"
+    },
+    "inviteMemberModal": {
+      "title": "Invite Member",
+      "description": "Invite a new member to your organization by entering their email address.",
+      "emailPlaceholder": "you@example.com",
+      "successToast": "Invitation sent successfully",
+      "errorToast": "Failed to send invitation. Please try again."
+    },
+    "details": {
+      "title": "Member Licenses",
+      "description": "Manage member licenses",
+      "notFound": "Member not found",
+      "backToMembers": "Back to Members",
+      "changeRole": "Change role",
+      "removeFromOrganization": "Remove from Organization",
+      "user": "User",
+      "review": "Review",
+      "userBasedLicenses": "User based licenses",
+      "addLicense": "Add license",
+      "product": "Product",
+      "package": "Package",
+      "region": "Region",
+      "licenseType": "License-Type",
+      "productName": "Revit ProjectBox",
+      "productType": "User based, Starter, EU",
+      "productSelect": "Select product",
+      "packageSelect": "Select package",
+      "licenseTypeSelect": "Select license type",
+      "regionSelect": "Select region",
+      "assignToMember": "Assign to {{memberName}}",
+      "confirmRemoveMember": "Confirm remove member from organization",
+      "removeMemberDescription": "Removing this member will revoke all their assigned licenses and they will lose access to the organization's resources.",
+      "userNotFoundInCryptlex": "User not found in Cryptlex",
+      "userNotFoundInCryptlexDescription": "The invited user has not yet accepted the invitation. Therefore, no license can be assigned yet.",
+      "changeRoleTitle": "Change role",
+      "changeRoleDescription": "Changing the role of a member will affect their permissions within the organization. Please review the role permissions before confirming the change."
+    }
+  },
+  "status": {
+    "active": "Active",
+    "invited": "Invited",
+    "suspended": "Suspended"
+  },
+  "billingPage": {
+    "title": "Billing",
+    "method": "Method",
+    "upcomingPayments": "Upcoming Payments",
+    "invoices": "Invoices",
+    "change": "Change",
+    "expires": "Expires",
+    "download": "Download",
+    "downloadAll": "Download all"
+  },
+  "plantToolsPage": {
+    "changeSeats": "Change seats",
+    "package": "Package",
+    "region": "Region",
+    "autoRenew": "Auto renew",
+    "price": "Price",
+    "cancellationDate": "Cancellation possible till",
+    "cancelSubscription": "Cancel subscription",
+    "assignToExistingUser": "Assign to existing user",
+    "inviteAndAssign": "Invite & assign",
+    "used": "used",
+    "assignable": "assignable",
+    "revoke": "Revoke",
+    "users": "Users"
+  },
+  "revitProjectBoxPage": {
+    "installations": "Installations",
+    "sendKeyViaMail": "Send key via mail",
+    "usedInstallations": "used",
+    "spareInstallations": "spare",
+    "licenseKey": "License key",
+    "licenseKeyReleased": "License key released",
+    "licenseKeyReleasedDescription": "To release a license key it must be deactivated on a local machine",
+    "package": "Package",
+    "region": "Region",
+    "autoRenew": "Auto renew",
+    "price": "Price",
+    "cancellationDate": "Cancellation possible till",
+    "cancelSubscription": "Cancel subscription",
+    "assignToExistingUser": "Assign to existing user",
+    "inviteAndAssign": "Invite & assign",
+    "used": "used",
+    "assignable": "assignable",
+    "revoke": "Revoke",
+    "users": "Users"
+  },
+  "inviteModal": {
+    "title": "Invite users to use PlantTools",
+    "description": "Use user's email address to invite them to use PlantTools",
+    "emailPlaceholder": "you@example.com",
+    "inviteButton": "Invite via email & pore-assign licenses",
+    "instruction": "1x user will be invited to your organization and 1x license pre-assigned."
+  },
+  "assignUserModal": {
+    "title": "Plant Tools",
+    "searchPlaceholder": "quick search",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "E-Mail Address",
+    "assignButton": "Assign users"
+  },
+  "orgData": {
+    "title": "Organization",
+    "subtitle": "View and manage your organization details",
+    "noOrganization": "No Organization Found",
+    "noOrganizationDescription": "You are not currently part of any organization.",
+    "organizationDetails": "Organization Details",
+    "organizationId": "Organization ID",
+    "organizationName": "Organization Name",
+    "yourRole": "Your Role",
+    "status": "Status",
+    "yourInformation": "Your Information",
+    "fullName": "Full Name",
+    "email": "Email",
+    "userId": "User ID",
+    "currentOrganization": "Current Organization"
+  },
+  "organization": {
+    "selectOrganization": "Select Organization",
+    "selectOrganizationDescription": "You are a member of multiple organizations. Please select the one you want to access.",
+    "access": "Access",
+    "switchedSuccessfully": "Switched organization successfully",
+    "failedToSwitch": "Failed to switch organization",
+    "createNew": "Create New Organization"
+  },
+  "invitation": {
+    "acceptedSuccessfully": "Invitation accepted successfully",
+    "failedToAccept": "Failed to accept invitation",
+    "declinedSuccessfully": "Invitation declined successfully",
+    "failedToDecline": "Failed to decline invitation"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "common": {
+    "no": "Nee",
+    "yes": "Ja",
+    "none": "Geen",
+    "save": "Opslaan",
+    "confirm": "Bevestigen",
+    "cancel": "Annuleren",
+    "close": "Sluiten",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "upload": "Uploaden",
+    "create": "Aanmaken",
+    "duplicate": "Dupliceren",
+    "unChecked": "Niet aangevinkt",
+    "loading": "Laden...",
+    "search": "Zoeken",
+    "nothingHereYet": "Hier is nog niets",
+    "createYourFirstItem": "Maak je eerste item aan om te beginnen."
+  },
+  "brand": {
+    "title": "Auxalia",
+    "subtitle": "Auxalia Console"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "requests": "Aanvragen",
+    "members": "Leden",
+    "billing": "Facturering",
+    "orgData": "Organisatiegegevens"
+  },
+  "table": {
+    "filters": "Filters",
+    "search": "Zoeken...",
+    "selected": "geselecteerd",
+    "noResult": "Geen resultaten gevonden",
+    "rowsPerPage": "Rijen per pagina",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "previousPageOfTotalPages": "{{startItem}} - {{endItem}} van {{totalCount}}",
+    "actions": {
+      "delete": "Verwijderen",
+      "edit": "Bewerken",
+      "download": "Downloaden",
+      "open": "Openen",
+      "clone": "Klonen",
+      "create": "Aanmaken",
+      "upload": "Uploaden",
+      "view": "Bekijken",
+      "check": "Controleren",
+      "print": "Afdrukken",
+      "compare": "Vergelijken",
+      "convert": "Converteren"
+    }
+  },
+  "signIn": {
+    "title": "console.auxalia",
+    "description": "Meld je aan bij je account met je inloggegevens of via Microsoft SSO.",
+    "forgotPassword": "Wachtwoord vergeten?",
+    "form": {
+      "email": "E-mailadres",
+      "emailPlaceholder": "jij@voorbeeld.com",
+      "password": "Wachtwoord",
+      "logIn": "Inloggen",
+      "signingIn": "Bezig met inloggen...",
+      "youDoNotHaveAnAccountYet": "Heb je nog geen account?",
+      "registerNow": "Nu registreren"
+    }
+  },
+  "dashboard": {
+    "licenseManagement": "Auxalia Licentiebeheer",
+    "plantTools": "Plant Tools",
+    "revitProjectBox": "Revit ProjectBox",
+    "used": "Gebruikt",
+    "management": {
+      "firstElement": {
+        "title": "Alles zoals verwacht",
+        "description": "Er is niets dat je moet doen"
+      },
+      "secondElement": {
+        "title": "Openstaande aanvraag",
+        "description": "{{count}} personen wachten op jou"
+      },
+      "thirdElement": {
+        "title": "Creditcard verloopt binnenkort",
+        "description": "Werk betalingsgegevens bij"
+      }
+    }
+  },
+  "requestsPage": {
+    "title": "Toewijzingsaanvragen",
+    "description": "1 bestaande Revit ProjectBox Business-licentie wordt toegewezen, 1 PlantTools Starter-licentie wordt aangeschaft",
+    "accept": "Accepteren",
+    "reject": "Afwijzen",
+    "modify": "Wijzigen",
+    "details": {
+      "title": "Antrag von {{requester}}",
+      "notFound": "Antrag nicht gefunden",
+      "notFoundDescription": "Der angeforderte Zuweisungsantrag konnte nicht gefunden werden.",
+      "requestInformation": "Anfrageninformationen",
+      "requester": "Antragsteller",
+      "email": "E-Mail",
+      "requestDate": "Antragsdatum",
+      "assignment": "Zuweisung",
+      "notes": "Notizen",
+      "acceptModalTitle": "Antrag annehmen",
+      "acceptModalDescription": "Sind Sie sicher, dass Sie den Antrag von {{requester}} annehmen möchten?",
+      "rejectModalTitle": "Antrag ablehnen",
+      "rejectModalDescription": "Sind Sie sicher, dass Sie den Antrag von {{requester}} ablehnen möchten?"
+    }
+  },
+  "orgData": {
+    "title": "Organisatiegegevens",
+    "subtitle": "Ondertitel organisatiegegevens",
+    "noOrganization": "Geen organisatie gevonden",
+    "noOrganizationDescription": "Je maakt momenteel geen deel uit van een organisatie.",
+    "organizationDetails": "Organisatiedetails",
+    "organizationId": "Organisatie ID",
+    "organizationName": "Organisatienaam",
+    "yourRole": "Jouw rol",
+    "status": "Status",
+    "yourInformation": "Jouw informatie",
+    "name": "Naam",
+    "email": "E-mail",
+    "userId": "Gebruikers ID"
+  },
+  "organization": {
+    "selectOrganization": "Organisatie selecteren",
+    "selectOrganizationDescription": "Je bent lid van meerdere organisaties. Selecteer degene tot wie je toegang wilt.",
+    "access": "Toegang",
+    "switchedSuccessfully": "Organisatie succesvol gewijzigd",
+    "failedToSwitch": "Organisatie wijzigen mislukt",
+    "createNew": "Nieuwe organisatie aanmaken"
+  },
+  "invitation": {
+    "acceptedSuccessfully": "Uitnodiging succesvol geaccepteerd",
+    "failedToAccept": "Uitnodiging accepteren mislukt",
+    "declinedSuccessfully": "Uitnodiging succesvol geweigerd",
+    "failedToDecline": "Uitnodiging weigeren mislukt"
+  }
+}
